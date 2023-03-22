@@ -11,3 +11,21 @@ float LuasLingkarang(float r) {
 float LuasSegitiga(float a, float t) {
     return 0.5 * a * t;
 }
+
+int main() {
+    float panjang, lebar, jejari, alas, tinggi;
+    int pilihan;
+    bool menu;
+    menu = true;
+    system("cls");
+    // do {
+    while (menu == true) {
+        cout << "\n\n================" << endl;
+        cout << "=== M E N U ====" << endl;
+        cout << "================\n" << endl;
+        cout << "1. Luas Persegi Panjang" << endl;
+        cout << "2. Luas Lingkarang" << endl;
+        cout << "3. Luas Segitiga" << endl;
+        cout << "4. Exit" << endl;
+        cout << "\nPilihan 1/2/3/4 : " << endl;
+        cin >> pilihan;
